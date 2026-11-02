@@ -112,7 +112,10 @@ function App() {
                   </a>
                 </div>
                 <div className="hero-socials" aria-label="Social profiles">
-                  <a href="https://github.com/MS1326" target="_blank" rel="noreferrer" aria-label="GitHub">
+                  
+                  <a href="mailto:magesh.s.1325@gmail.com" aria-label="Email">
+                    <i className="bi bi-google" aria-hidden="true" />
+                  </a><a href="https://github.com/MS1326" target="_blank" rel="noreferrer" aria-label="GitHub">
                     <i className="bi bi-github" aria-hidden="true" />
                   </a>
                   <a
