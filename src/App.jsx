@@ -36,7 +36,7 @@ const projects = [
   },
 ];
 
-const skills = ["React", "JavaScript", "HTML", "CSS", "Bootstrap"];
+const skills = ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "SQL", "Git", "GitHub", "VS Code", "Responsive Design"];
 
 function ArrowIcon() {
   return <i className="bi bi-arrow-up-right" aria-hidden="true" />;
@@ -52,7 +52,7 @@ function App() {
       <header className="site-header">
         <nav className="navbar navbar-expand-lg container site-nav" aria-label="Main navigation">
           <a className="navbar-brand brand-mark" href="#home" onClick={closeMenu}>
-            m<span>.</span>
+            M<span>S</span>
           </a>
           <button
             className="navbar-toggler nav-toggle"
@@ -65,6 +65,7 @@ function App() {
           </button>
           <div className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}>
             <div className="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+              <a className="nav-link" href="#home" onClick={closeMenu}>Home</a>
               <a className="nav-link" href="#work" onClick={closeMenu}>Work</a>
               <a className="nav-link" href="#about" onClick={closeMenu}>About</a>
               <a className="nav-link" href="#contact" onClick={closeMenu}>Contact</a>
@@ -89,7 +90,7 @@ function App() {
               <div className="col-lg-7 hero-copy">
                 <p className="eyebrow"><span className="status-dot" /> WEB DEVELOPER</p>
                 <h1>
-                  Hey, I’m Magesh<span className="accent">.</span>
+                  Hey, I’m MAGESH<span className="accent">.</span>
                   <br />
                   I build for the <span className="headline-highlight">web.</span>
                 </h1>
@@ -138,9 +139,9 @@ function App() {
                     </div>
                     <div className="code-lines" aria-hidden="true">
                       <p><span className="code-purple">const</span> <span className="code-blue">developer</span> = {"{"}</p>
-                      <p className="code-indent"><span className="code-green">name</span>: <span className="code-orange">"Magesh"</span>,</p>
-                      <p className="code-indent"><span className="code-green">makes</span>: <span className="code-orange">"web things"</span>,</p>
-                      <p className="code-indent"><span className="code-green">status</span>: <span className="code-orange">"building"</span></p>
+                      <p className="code-indent"><span className="code-green">name</span>: <span className="code-orange">"MAGESH"</span>,</p>
+                      <p className="code-indent"><span className="code-green">makes</span>: <span className="code-orange">"Web things"</span>,</p>
+                      <p className="code-indent"><span className="code-green">status</span>: <span className="code-orange">"Building"</span></p>
                       <p>{"};"}</p>
                     </div>
                     <div className="visual-card-footer"><span /> Turning ideas into interfaces</div>
@@ -209,7 +210,7 @@ function App() {
                 <p className="eyebrow">A LITTLE ABOUT ME</p>
                 <h2>Made with curiosity<span className="accent">.</span></h2>
                 <p className="about-copy">
-                  I’m Magesh, a developer who likes making things for the web.
+                  I’m MAGESH, a developer who likes making things for the web.
                   My projects range from interactive JavaScript experiments to
                   responsive React experiences. I care about keeping things
                   approachable, useful, and enjoyable to use.
@@ -259,8 +260,8 @@ function App() {
 
       <footer className="site-footer">
         <div className="container d-flex flex-wrap justify-content-between align-items-center gap-3">
-          <a className="brand-mark footer-brand" href="#home">m<span>.</span></a>
-          <p>Designed &amp; built with curiosity by Magesh S.</p>
+          <a className="brand-mark footer-brand" href="#home">M<span>S</span></a>
+          <p>Designed &amp; built with curiosity by MAGESH S</p>
           <a className="back-top" href="#home">Back to top ↑</a>
         </div>
       </footer>
