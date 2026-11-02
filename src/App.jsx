@@ -36,7 +36,7 @@ const projects = [
   },
 ];
 
-const skills = ["React", "JavaScript", "HTML", "CSS", "Bootstrap", "SQL", "Git", "GitHub", "VS Code", "Responsive Design"];
+const skills = [ "HTML", "CSS", "Bootstrap", "JavaScript", "React", "Node.js", "Express", "SQL", "PostgreSQL", "Git", "GitHub", "VS Code", "Responsive Design"];
 
 function ArrowIcon() {
   return <i className="bi bi-arrow-up-right" aria-hidden="true" />;
